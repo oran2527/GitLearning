@@ -59,4 +59,4 @@ git show <nombreTag> -> muestra la informacion sobre el tag
 
 #annotated tag
 git tag -a <nombreTag> -> crear un tag annotated o sea con amplia informacion del tag
-
+git push origin --tags -> subir los tags de local a remoto para que salgan en la pestaña tags de github
