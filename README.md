@@ -18,4 +18,6 @@ git log --pretty --format="%h %an %ar : %s" -> permite ver info con la fecha de 
 %ar -> se ve los cambios diciendo "hace 1 minuto" "hace dos dias" etc
 git log --after=<fecha> -> permite ver commits despues de la condicion de fecha. Ejemplo --after=29/10/2021
 git log --since=<fechaRelativa> -> permite ver commits segun fecha relativa. Ejemplo --since=1day
+git restore <archivo> -> devuelve un archivo de stage a un archivo modificado
+
 
