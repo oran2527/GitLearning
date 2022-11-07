@@ -1,5 +1,6 @@
 # GitLearning
 Git practice
+
 Cambio en primera
 
 git diff <archivo> ver diferencias entre versiones
@@ -42,3 +43,9 @@ git fetch -> trae los cambios que haya en github o sea en remoto hacia local
 git pull -> trae los cambios remotos a local
 
 commit con conflicto
+=======
+
+Hola Readme soy Orlando
+
+Hola conflicto
+
