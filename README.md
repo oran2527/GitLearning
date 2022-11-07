@@ -19,5 +19,7 @@ git log --pretty --format="%h %an %ar : %s" -> permite ver info con la fecha de 
 git log --after=<fecha> -> permite ver commits despues de la condicion de fecha. Ejemplo --after=29/10/2021
 git log --since=<fechaRelativa> -> permite ver commits segun fecha relativa. Ejemplo --since=1day
 git restore <archivo> -> devuelve un archivo de stage a un archivo modificado
+git commit --amend -> modifica el mensaje del ultimo commit realizado o sea el head sin perder el numero de commit
+----- para probar amend luego del comando add --------
 
 
