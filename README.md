@@ -49,3 +49,14 @@ Hola Readme soy Orlando
 
 Hola conflicto
 
+#conflictos
+generalmente se presentan al hacer merge. Se debe revisar el archivo con conflicto y verificar que cambios se deben dejar. Luego git add, git commit y ahi dice que hara lo mismo para ambas ramas donde se este haciendo el merge
+
+#tags
+git tag -l -> para revisar los tags creados en la rama
+git tag <nombreTag> -> crear un tag
+git show <nombreTag> -> muestra la informacion sobre el tag
+
+#annotated tag
+git tag -a <nombreTag> -> crear un tag annotated o sea con amplia informacion del tag
+
