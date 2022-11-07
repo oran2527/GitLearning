@@ -38,6 +38,7 @@ nombrearchivo
 /nombrecarpeta/
 
 git push origin <nombreRama> -> manda los cambios de local al repositorio remoto de GitHub
+git fetch -> trae los cambios que haya en github o sea en remoto hacia local
 
 
 
