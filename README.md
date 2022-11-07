@@ -37,5 +37,7 @@ nombrecarpeta/
 nombrearchivo
 /nombrecarpeta/
 
+git push origin <nombreRama> -> manda los cambios de local al repositorio remoto de GitHub
+
 
 
