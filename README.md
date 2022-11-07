@@ -21,5 +21,24 @@ git log --since=<fechaRelativa> -> permite ver commits segun fecha relativa. Eje
 git restore <archivo> -> devuelve un archivo de stage a un archivo modificado
 git commit --amend -> modifica el mensaje del ultimo commit realizado o sea el head sin perder el numero de commit
 ----- para probar amend luego del comando add --------
+git commit --amend <archivo> -> agregar el mensaje de un commit a otro archivo que no se adjunto por olvido y que queden con el mismo mensaje y el mismo commit o sea el ultimo commit o sea el head
+git branch -> muestra la rama actual en la que estamos trabajando
+git branch -a -> muestra la rama actual y si es remota o local o ambas
+git branch <nombreDeLaRamaNueva> -> crear una rama nueva
+git branch --show-current -> muestra la rama actual que se esta usando o sea la que esta en verde
+git switch <nombreRama> -> permite cambiar de una rama a otra
+git checkout <nombreRama> -> cambia de una rama a otra
+git checkout -b <nombreRamaNueva> -> permite crear una rama nueva y de una vez cambiar a ella
+git checkout <archivo> -> devuelve la informacion al ultimo commit
+
+#.gitignore
+archivo .gitignore sirve para ignorar archivos o carpetas que no queremos que queden sus cambios. Agregar asi:
+nombrecarpeta/
+nombrearchivo
+/nombrecarpeta/
+
+git push origin <nombreRama> -> manda los cambios de local al repositorio remoto de GitHub
+git fetch -> trae los cambios que haya en github o sea en remoto hacia local
+git pull -> trae los cambios remotos a local
 
 
