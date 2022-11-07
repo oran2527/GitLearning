@@ -33,8 +33,9 @@ git checkout <archivo> -> devuelve la informacion al ultimo commit
 
 #.gitignore
 archivo .gitignore sirve para ignorar archivos o carpetas que no queremos que queden sus cambios. Agregar asi:
-/nombrecarpeta
+nombrecarpeta/
 nombrearchivo
+/nombrecarpeta/
 
 
 
